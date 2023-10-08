@@ -1,6 +1,10 @@
 import 'package:animations_app/01_opacity_animation.dart';
 import 'package:animations_app/02_position_animation.dart';
 import 'package:animations_app/03_rotation_animation.dart';
+import 'package:animations_app/04_scale_animation.dart';
+import 'package:animations_app/05_container_animation.dart';
+import 'package:animations_app/06_text_animation.dart';
+import 'package:animations_app/07_switch_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RotationAnimation(),
+      home: SwitchAnimation(),
     );
   }
 }
