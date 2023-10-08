@@ -1,3 +1,6 @@
+import 'package:animations_app/01_opacity_animation.dart';
+import 'package:animations_app/02_position_animation.dart';
+import 'package:animations_app/03_rotation_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('Initial Application'),
-        ),
-      ),
+      home: RotationAnimation(),
     );
   }
 }
